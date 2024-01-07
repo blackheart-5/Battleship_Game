@@ -1,4 +1,4 @@
-from board import Ship,  Board # important for the project
+from board_class import Ship,  Board # important for the project
 
 # # Uncomment the following lines when you are ready to do input/output tests!
 ## Make sure to uncomment when submitting to Codio.
