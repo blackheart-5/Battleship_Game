@@ -1,6 +1,5 @@
 #################################################################
-#  Computer Project #7
-
+# 
 #Part One
 # In the first part of the game, each player places ships on their board. Ships may be placed
 # horizontally or vertically (but not diagonally). Additionally, ships may not overlap each other.
@@ -13,10 +12,10 @@
 # (this would also be a waste of a turn). If a ship has been hit in all of its positions, then it is considered sunk.
 # The game ends when one player sinks all of another player’s ships.
 #################################################################
-from board import Ship, Board
+from board_class import Ship, Board
 
-from board import Ship, Board #important for the project
-from game import Player, BattleshipGame #important for the project
+from board_class import Ship, Board #important for the project
+from game_class import Player, BattleshipGame #important for the project
 
 
 def main():
